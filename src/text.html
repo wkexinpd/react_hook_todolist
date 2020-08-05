@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .span1{
+        position: absolute;
+        top: 10px;
+        right: 150px;
+        animation: fly01 2s linear 0.5s infinite alternate;
+        /* transform: rotate(-17deg); */
+
+    }
+    .span2{
+        position: absolute;
+        top: 10px;
+        right: 130px;
+        animation: fly01 2s linear 0.5s infinite alternate;
+        /* transform: rotate(-17deg); */
+    }
+    .span3{
+        position: absolute;
+        top: 10px;
+        right: 110px;
+        animation: fly01 2s linear 0.5s infinite alternate;
+    }
+    .span4{
+        position: absolute;
+        top: 10px;
+        right: 90px;
+        animation: fly01 2s linear 0.5s infinite alternate;
+    }
+
+    @keyframes fly01 {
+    from{
+        transform: translate(-5px,-2px)  rotate(-10deg);
+    }
+    to{
+        transform: translate(5px,2px) rotate(10deg);
+    }
+}
+</style>
+
+<body>
+    <span class="span1">汉</span><span class="span2">字</span><span class="span3">动</span><span class="span4">了</span>
+</body>
+
+</html>
